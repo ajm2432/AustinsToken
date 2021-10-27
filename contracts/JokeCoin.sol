@@ -611,8 +611,8 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 }
 
 contract JokeToken is ERC20{
-    constructor() ERC20("JokeToken", "JOKE") {
-        uint256 initialSupply = 1000000000000000000 * 1000000;
+    constructor() ERC20("AustinsToken", "AUSTIN") {
+        uint256 initialSupply = 1000000000000000000 * 2;
         _mint(msg.sender, initialSupply);
     }
 }
