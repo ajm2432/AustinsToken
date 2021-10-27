@@ -610,7 +610,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
 }
 
-contract JokeToken is ERC20{
+contract AustinsToken is ERC20{
     constructor() ERC20("AustinsToken", "AUSTIN") {
         uint256 initialSupply = 1000000000000000000 * 2;
         _mint(msg.sender, initialSupply);
