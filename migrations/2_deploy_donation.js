@@ -1,5 +1,5 @@
-const JokeToken = artifacts.require("JokeToken");
+const AustinsToken = artifacts.require("AustinsToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(JokeToken);
+  deployer.deploy(AustinsToken);
 };
