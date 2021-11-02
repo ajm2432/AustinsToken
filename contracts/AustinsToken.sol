@@ -611,7 +611,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 }
 
 contract AustinsToken is ERC20{
-    constructor() ERC20("AustinsToken", "AUSTIN") {
+    constructor() ERC20("PassionToken", "PASN") {
         uint256 initialSupply = 1000000000000000000 * 2;
         _mint(msg.sender, initialSupply);
     }
